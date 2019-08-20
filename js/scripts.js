@@ -9,18 +9,15 @@ $(document).ready(function(){
   $("#stringInput").submit(function(event){
     event.preventDefault();
     var letters = $("#sentenceInput").val();
-    var outputString = "";
+
       for (var i=0; i<letters.length; i++) {
         for (var x=0; x<vowels.length; x++) {
           if (letters[i] === vowels[x]) {
-            outputString += "-";
+            letters = letters.replace(letters[i], "-");
             console.log(letters);
-          } else {
-            outputString += letters[i];
-            break;
           }
         }
       }
-      $("#output").text(outputString);
+      $("#output").text(letters);
   });
 });
