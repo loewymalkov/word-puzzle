@@ -9,5 +9,6 @@ Open file in web-browser. Enter an input sentence and it will replace the vowels
 ## AUTHOR AND LICENSE
 
 Loewy Malkovich - loewymalkov@gmail.com
+Carrie Schmid
 Free use License 2019 (MIT)
 
